@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F4CCB893AFADB97238A965FD2F28717F1CAAE613+++33CBAA1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F4CCB893AFADB97238A965FD2F28717F1CAAE613+++F47DE31" : 0,
+    "F4CCB893AFADB97238A965FD2F28717F1CAAE613+++33CBAA1" : 0,
+    "F4CCB893AFADB97238A965FD2F28717F1CAAE613+++852ECB7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5A204E74-051A-46CD-9DCF-719C216F5B1B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F4CCB893AFADB97238A965FD2F28717F1CAAE613+++F47DE31" : "ofxSyphon\/",
+    "F4CCB893AFADB97238A965FD2F28717F1CAAE613+++33CBAA1" : "ofxSyphon_nimp\/",
+    "F4CCB893AFADB97238A965FD2F28717F1CAAE613+++852ECB7" : "ofxSyphon\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "example_ServerDirectory",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "example_ServerDirectory\/example_ServerDirectory.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nperi\/ofxSyphon_nimp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F4CCB893AFADB97238A965FD2F28717F1CAAE613+++33CBAA1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nperi\/ofxSyphon_nimp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F4CCB893AFADB97238A965FD2F28717F1CAAE613+++852ECB7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/astellato\/ofxSyphon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F4CCB893AFADB97238A965FD2F28717F1CAAE613+++F47DE31"
+    }
+  ]
+}
