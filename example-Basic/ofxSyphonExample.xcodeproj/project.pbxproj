@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		3C63652417CA9DE500C6ECB7 /* ofxSyphonServerDirectory.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C63652317CA9DE500C6ECB7 /* ofxSyphonServerDirectory.mm */; };
 		3C7B8CE614F554DE009A8500 /* SyphonNameboundClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7B8CE514F554DE009A8500 /* SyphonNameboundClient.m */; };
-		3C99DB2D13FB0B0900B3CA02 /* Syphon.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3C99DB2413FB0B0900B3CA02 /* Syphon.framework */; };
 		3C99DB2F13FB0B0900B3CA02 /* ofxSyphonClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C99DB2A13FB0B0900B3CA02 /* ofxSyphonClient.mm */; };
 		3C99DB3013FB0B0900B3CA02 /* ofxSyphonServer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C99DB2C13FB0B0900B3CA02 /* ofxSyphonServer.mm */; };
-		3C99DB5813FB0B7800B3CA02 /* Syphon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C99DB2413FB0B0900B3CA02 /* Syphon.framework */; };
+		4916452D1CCD40E400374768 /* Syphon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C99DB2413FB0B0900B3CA02 /* Syphon.framework */; };
+		4916452F1CCD40F400374768 /* Syphon.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4916452E1CCD40F400374768 /* Syphon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
 		E2820AE11B1884DF000D9052 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2820AE01B1884DF000D9052 /* CoreVideo.framework */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
@@ -57,7 +57,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3C99DB2D13FB0B0900B3CA02 /* Syphon.framework in CopyFiles */,
+				4916452F1CCD40F400374768 /* Syphon.framework in CopyFiles */,
 				BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +75,7 @@
 		3C99DB2A13FB0B0900B3CA02 /* ofxSyphonClient.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxSyphonClient.mm; sourceTree = "<group>"; };
 		3C99DB2B13FB0B0900B3CA02 /* ofxSyphonServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxSyphonServer.h; sourceTree = "<group>"; };
 		3C99DB2C13FB0B0900B3CA02 /* ofxSyphonServer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxSyphonServer.mm; sourceTree = "<group>"; };
+		4916452E1CCD40F400374768 /* Syphon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Syphon.framework; sourceTree = "<group>"; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
 		E2820AE01B1884DF000D9052 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -104,8 +105,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4916452D1CCD40E400374768 /* Syphon.framework in Frameworks */,
 				E2820AE11B1884DF000D9052 /* CoreVideo.framework in Frameworks */,
-				3C99DB5813FB0B7800B3CA02 /* Syphon.framework in Frameworks */,
 				E4EB6799138ADC1D00A09F29 /* GLUT.framework in Frameworks */,
 				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
 				E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */,
@@ -248,6 +249,7 @@
 		E4B69B4A0A3A1720003C02F2 = {
 			isa = PBXGroup;
 			children = (
+				4916452E1CCD40F400374768 /* Syphon.framework */,
 				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
 				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
 				E4B69E1C0A3A1BDC003C02F2 /* src */,
@@ -447,6 +449,7 @@
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx,
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../../addons/ofxSyphon/libs/Syphon/lib/osx\"";
@@ -456,6 +459,28 @@
 				GCC_MODEL_TUNING = G4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../addons/ofxSyphon_nimp/libs,
+					../../../addons/ofxSyphon_nimp/libs/Syphon,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework/Headers,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework/Resources,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework/Resources/English.lproj,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework/Versions,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework/Versions/A,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework/Versions/A/Headers,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework/Versions/A/Resources,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework/Versions/A/Resources/English.lproj,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework/Versions/Current,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework/Versions/Current/Headers,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework/Versions/Current/Resources,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework/Versions/Current/Resources/English.lproj,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/src,
+					../../../addons/ofxSyphon_nimp/src,
+				);
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
@@ -536,6 +561,7 @@
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx,
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../../addons/ofxSyphon/libs/Syphon/lib/osx\"";
@@ -544,6 +570,28 @@
 				GCC_MODEL_TUNING = G4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../addons/ofxSyphon_nimp/libs,
+					../../../addons/ofxSyphon_nimp/libs/Syphon,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework/Headers,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework/Resources,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework/Resources/English.lproj,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework/Versions,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework/Versions/A,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework/Versions/A/Headers,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework/Versions/A/Resources,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework/Versions/A/Resources/English.lproj,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework/Versions/Current,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework/Versions/Current/Headers,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework/Versions/Current/Resources,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/lib/osx/Syphon.framework/Versions/Current/Resources/English.lproj,
+					../../../addons/ofxSyphon_nimp/libs/Syphon/src,
+					../../../addons/ofxSyphon_nimp/src,
+				);
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
